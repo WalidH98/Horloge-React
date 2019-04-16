@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Pangolin');
+
+body{
+  background-image: url("https://i.pinimg.com/originals/c4/c4/9e/c4c49e32fc88f679e868dac8dbf17226.jpg")
+}
+
+#title{
+  color: white;
+
+
+  font-family: 'Pangolin', cursive;
+
+ 
+
+
+}
+
+h1{
+  color: black;
+  font-size: 156px;
+  
+}
+
 .App {
   text-align: center;
 }
@@ -9,8 +32,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,13 +44,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
